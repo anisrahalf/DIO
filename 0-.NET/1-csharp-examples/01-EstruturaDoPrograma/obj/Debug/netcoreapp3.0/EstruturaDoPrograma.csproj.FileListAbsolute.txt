@@ -1,0 +1,14 @@
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.exe
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.deps.json
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.runtimeconfig.json
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.runtimeconfig.dev.json
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.dll
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.pdb
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.csproj.AssemblyReference.cache
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.AssemblyInfoInputs.cache
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.AssemblyInfo.cs
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.csproj.CoreCompileInputs.cache
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.dll
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.pdb
+C:\Users\anisr\Documents\GitHub\csharp-examples\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.genruntimeconfig.cache

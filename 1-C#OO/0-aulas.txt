@@ -1,0 +1,153 @@
+Paradigmas de programaçao:(pp)
+-são modos diferentes de montar a estrutura e execução de código.
+-um pp fornece e determina a visão que o programador possui sobre
+a estruturação e execuçao do programa.
+-cada paradigma surgiu de necessidades diferentes
+-dado isso, cd um apres maiores vantagens sobre os outros dentro do
+dev de determinado sistema. Sendo assim, um paradigma pode oferecer 
+técnicas apropriadas para uma aplicação específica
+Entre eles estão a programação orientada a objetos (POO) e a programação estruturada(pela)
+(cada uma tem sua finalidade)
+
+PE X PO:
+PE: -A programação estruturada tem como principal caracteristica sua implementação linha por linha,
+em pequenos trechos de cod, podendo eles não estar em uma ordem especifica
+Há 3 tipos de estruturas basicas para navegar pelo código:
+-sequencias: são os comandos a serem exec de cima p baixo, linha a linha, do programa, de forma sequencial
+-seleçao: sequências que só devem ser executadas se a condição for satisfeita (ex: if, else, switch e comandos parecidos)
+-repetição: sequências que devem, ser executadas repetidamentes até uma condição for satisfeita(for, while, do-while,etc)
+
+POO:
+-POO é baseado no conceito de "objetos", que pdoem conter dados na forma de campos(atributos) e códigos, na forma de 
+procedimentos(métodos).
+-uma caracteristica é que um procedimento de objeto pode acessar, e geralmente modificar, os campos de dados do objeto
+com o qual eles estão associados e cada um é encarregado de receber e processar e enviar dados, podendo ser visto como 
+uma maquina independente
+para que a ling seja considerada orientada a objeto é preciso atender a quatro tópicos importantes, que são chamados de "os 4 pilares da prog O.O":
+-abstração;
+-encapsulamento;
+-herança;
+-polimorfismo;
+
+ORIENTAÇÃO A OBJETOS NO .NET:
+-a improtancio da POO é simples e direta, tudo em .NET é objeto.
+-Mesmo os tipos de dados mais simp´les são cobnsiderador objetos.
+-implicitamente, todo e qualquer tipo ou objeto em .NET possui um ancestral comum
+
+OQUE SÃO CLASSES?
+-pd ser considerado como se fosse um molde para o objeto, contendo dentro de si as principais informações para a sua criação.
+-Define ops atributos e metodos comuns que serão compartilhados por um objeto
+-classe publica: pd ser acessada de qlq parte do programa
+- classe private: ex: codigoproduto pertence a apenas 1 produto
+
+Objetos:
+-considera-se obj tudo aquilo que em geral possui atributos, comportamentos e um estado.
+-a classe em si é um conceito abstrato, como um molde, que se torna concreto e palpavel atraves da criação de um objeto
+-na prog o obj é uma instaciação(criação a partir) de uma classe.
+-para criarmos ou instaciarmos objetos de uma determinada classe, utilizamos o operador new
+ex: produto obj = new produto(); (new produto vai pegar todas as classe produto)
+
+VISIBILIDADE:
+-a visibilidade é importante p a proteção do cod e suas funcionalidades, define quem pode alterar cada dados dos trechos de código em 3 primcipais niveis:
+-pública: represen pelo simbolo +
+-privada: repres pelo símbolo de -
+-protegida: representada pelo simbolo de #
+
+-public: sem limitaçao de acesso
+-protected internal: acesso ilimitado a propria classe, as classes derivadas e ao proprio assembly(montador)
+-protected: acesso ilim a propria classe e as classes derivadas
+-internal: acesso ilimitado ao proprio assembly
+-private: acesso ilimitado a propria classe
+
+-esse encapsulamento de atrib e métodos impede o chamado vazamento de escopo, onde um atributo ou método é
+visível por alguém que não deveria vê-lo, como outro objeto ou classe
+
+TIPOS:
+TIPOS POR VALOR:
+-todos os tipos de dados numericos
+-n precisam ser incializados com o operador new.
+-a var armazena o valor diretamente.
+-a atribuiçao de uma var a outra copia o conteudo, criando efetivamente outra copia da var
+-n podem contem o valor null
+-exemplos de vars desse tipo são: integers, doubles, floats e char
+ 
+DOUBLE E FLOAT:
+- os nr de ponto flutuante são bastante convencionais, as op de ponto flutuante nao geram erros.
+
+CARACTERES:
+-Em C#, todos os caracteres char são armazernados no padrão Unicode e usam 16 bits por caractere.
+-o unicode permite armaz os caracteres de todas as linguas vivas e algumas mortas(sanscrito) ( n é compativel com int)
+
+TIPOS POR REFERENCIA:
+-armazena uma referência a seus dados.
+-os tipos de referencia incluem o seguinte:
+-duas vars podem conter a referencia a um msm obj
+-operações em uma afetam a outra
+-todas as matrizes, mesmo que seus elementos sejam de tipos de valor
+-ex de tipos por referência: strings, classes e arrays
+
+STRINGS:
+- semelhante ao char, strings são vars do tipo texto
+-são uma sequencia de caracteres, geralmente utilizada para representar palavras, frases ou textos de um programa(aceita até 1GB de chars)
+-as strings sao consideradas imtutaveis e não pode ser alteradas depois de consideradas
+- quando vc efetua uma operaçao qualquer, como concatenar um char, vc na vdd esta criando outra string e descartando a anterior
+
+CLASSES:
+-como visto anteriormente é 1 tipo definido pelo user e correspondem a uma class.
+-as classes sao sempre derivadas de object e podem conter campor, métodos e propriedades.
+-uma classe pode derivar de uma unica outra classe, e tb de varias interfaces
+
+ARRAY:
+-um array(matriz) é uma lista de valores onde todos os valores no grupo sao referenciados pelo nome da matriz e o indicee atribuido ao 
+valor especifico a matrizes
+
+TIPO PONTEIRO OU APONTADOR:
+- é um tipo de dado cujo valor alocado em outra area da memoria, atraves de seu endereço
+
+METODOS:
+-os metodos determinam o comportamento dos objetos de uma classe e são capazes de controlar o estado da instancia
+-sao funçoes que realizam tarefas
+-podem ou nao retornar valores, e podem ou nao receber parametros
+-o envio de mensagens chamada metodos
+- os metodos determinam o comportamento dos objetos de uma classe e sao capazes de controlar o estado da intância.
+-São funções que realizam tarefas
+-eles podem ou nao retornar valores, e podem ou não receber parametros
+-o envio de msgs( chamadas de metodos) pode alterar o estado de um obj
+-esse metodos temos como difundidos os Getters, os Settlers e o Construct
+TIPOS DE METODOS:
+
+getters:
+-os getters ou metodos acessores solicxitam o acesso a infos de um determinado produto sem dar acesso diretamtente a ele,
+colocando ali uma barreira de proteção aos dados.
+no ex abaixo o get retorna o atributo correspondente:
+public int codigoproduto
+{
+    get {return codigo ; }
+    set (codigo = value; )
+}
+
+
+Settlers:
+-ou metodos modificadores enviam o pedido de alteraçao de uma determinada info de um objeto sem que se altere diretamente  o msm
+
+metodos construtores:
+-a funçao construct ou metodo construtor pe incializar ou dar forma a classe
+-é nele que indicamos os valores dos campos de uma classe-esse valoores podem ser internos(no cod) ou externoos( passado por parametros)
+As regras p difinição de um construtor sao:
+-o contrutor deve ter o mesmo nome da classe;
+-nao tem tipo de retorno;
+é executado apenas um, apenas uma vez, no momento da criação do objeto;
+-não pode ser chamado diretamente;
+-deve ser public;
+
+SOBRE PROPRIEDADES:
+-uma forma mais inteligente de fazer implementações de campos em classes são as propriedades.
+-propriedades consistem em uma par de metodos "get" e "set" que respectivamente servem para recuperar e atribuir o valor a um campo.
+-geralmente, para cada metodo existe uma var dentro da classe que armazena o valor da propriedades
+
+OQUE SÃO EVENTOS:
+-são msgs que a classe dispara em determinada situaçao.
+-para q o evento funcione, é necessario que um metodo seja escrito para ser executado quando ocorrer o evento
+-a classe apenas fica sabendo que existe esse método em tempo de execuçao.
+-para que o mecanismo dos eventos funcione, é necessario usar um tipo de estrutura chamado DELEGATE, uma vat que guarda o endereço de uma função, 
+essa var chama a função associada a ela.

@@ -1,0 +1,147 @@
+-h = help (mostra info)
+-n = define o nome
+
+clear = limpa tela
+
+dotnet new console -n DIO = cria novo console chamado DIO
+
+explorer . = abre o arq na pasta do win
+
+code . = abre no vs code
+
+pasta bin = cod binários
+
+dotnet restore = restora os pacotes
+
+dotnet build = restora os pacotes e mais alguns arqs
+dotnet run = executa a aplicação
+
+Os programas c# são executados no .NET
+CLR (common language runtime)
+Conj unificado de bibliotecas de classe
+Atualmente o compilador c# é o Roslyn
+
+O cod fonte é em C# e é compilado por um ling intermediaril (IL)
+cod e recursos de IL são armaz no disco,
+em um arquivo executal chamado assembly, geralmentte com uma exetensão .exe ou .dll
+ Repetir 5 vezes o texto:
+ using System;
+
+namespace DIO
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numeroDeVezes = 10;
+
+            for (int i=0; i < numeroDeVezes; i++)
+            {
+                Console.WriteLine($"bem-vindo ao curso .NET {i}");
+            }
+        
+        
+        }
+
+
+    }
+}
+
+Quando o programa C# é exec, o assembly é carregado no CLR
+Em seguido o CLR executará a compilaçao junst in time (JIT) para converter 
+o còdigo IL em intruções de máquinas nativa
+
+CLR tb fornece outros serviços:
+- garbage collector
+- Exceptionm Handler
+-Resources Manager
+.NET possui uma ampla biblioteca de funcionalidades
+
+Principais conceitos organizacionais em C# são:
+Os prog declaram tipos, que contem membros e podem ser organziados em namespaces
+Classes e interfaces são exemplos de tipos
+Campos, métodos, propriedades e eventos são exemplos de membros
+
+Quando os programas C# são compilados eles são fisicamente empacotados em assemblies
+Os assemblies geralmente tem a exetensão de arquivo .exe ou .dll, dependendo se são 
+aplicações ou bibliotecas
+
+debug = pontinho vermelho ao lado da linha que permite que aprtir desse 
+ponto executar o cod linha por linha
+
+1.Tipos e vars
+as vars tem sua proporia copia dos dados e não é possivel que as operações
+afetem outra var (exceto param ref e out)
+
+ Numericos
+sbyte, short, int, long, byte, ushort, uint, ulong
+
+Caracteres Unicode
+char
+
+Pontos flutuantes: float, double, decimal
+
+booleano:
+bool
+
+outros tipos:
+enum, struct e tipos nullable
+
+Vars do tipo referencia:
+-armazenam a referência a seus dados
+-é possivel que 2 vars façam, referencia ao msm objeto e, portanto, que operações 
+em uma var afetem o objeto referenciado pela outra var
+-tipos classe:
+class, object e string
+tipos arrays: int[], int[], etc...
+
+Instruções no C#:
+-ações de um programa são expressas usando Instruções
+{
+    Um bloco permite que varias intruçoes sejam escritam em contextos
+}
+
+Declaração de vars e consts
+-info
+-switch
+-while
+-do
+-for
+-foreach
+-break
+-continue
+-return
+-throw
+-try..catch..finally
+-using
+boa pratica não comentar o código, só se imperativo
+i-- = i - 1
+args lenght = numero de args
+
+Array:
+-estrutura de dados que contém um num x de elem,
+ todos do msm tipo, que são acessados atraves de índices computados
+-Arrays são tipos de referencia e a declaração  de uma var array simplesmente
+reserva espaço para uma referencia de uma instancia de array
+- ao criar um array é definido o tamanho da nova instancia, que é fixo durante
+tempo de vida da instância
+-Os indices de um elem de array variam de 0 a comprimento do array -1
+
+Array Unidimensional:
+int[] a = new int [10];
+for(int i = 0; i < a.Lenght; i++)
+{
+    a[i] = i * i;
+}
+for (int i = 0; i <a.Length: i++)
+{
+    Console.WriteLine($"a[{i}] = {a[i]}");
+}
+
+Array multidimensional:
+int[,] a2 = new int[10, 5];
+int[,,] a3 = new int[10, 5, 2];
+
+inicializador de array?
+int a = new int[] {1, 2, 3};
+int[] a = {1, 2, 3};

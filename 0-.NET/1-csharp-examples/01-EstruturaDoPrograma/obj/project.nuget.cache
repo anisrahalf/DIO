@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "YRsl0qW38PlvM1O5hckn7RjTtUj8jA5Ff3TT54wkO0VXeA69MkoM+oU52JKknntOpoFGUnCpBb1dtw30I/i8QQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anisr\\Documents\\GitHub\\csharp-examples\\01-EstruturaDoPrograma\\EstruturaDoPrograma.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anisr\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\anisr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\anisr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\anisr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

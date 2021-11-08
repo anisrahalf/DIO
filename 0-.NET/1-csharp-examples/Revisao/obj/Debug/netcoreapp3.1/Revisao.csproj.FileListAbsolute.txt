@@ -1,0 +1,14 @@
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\bin\Debug\netcoreapp3.1\Revisao.exe
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\bin\Debug\netcoreapp3.1\Revisao.deps.json
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\bin\Debug\netcoreapp3.1\Revisao.runtimeconfig.json
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\bin\Debug\netcoreapp3.1\Revisao.runtimeconfig.dev.json
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\bin\Debug\netcoreapp3.1\Revisao.dll
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\bin\Debug\netcoreapp3.1\Revisao.pdb
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\obj\Debug\netcoreapp3.1\Revisao.csproj.AssemblyReference.cache
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\obj\Debug\netcoreapp3.1\Revisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\obj\Debug\netcoreapp3.1\Revisao.AssemblyInfoInputs.cache
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\obj\Debug\netcoreapp3.1\Revisao.AssemblyInfo.cs
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\obj\Debug\netcoreapp3.1\Revisao.csproj.CoreCompileInputs.cache
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\obj\Debug\netcoreapp3.1\Revisao.dll
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\obj\Debug\netcoreapp3.1\Revisao.pdb
+C:\Users\anisr\Documents\GitHub\csharp-examples\Revisao\obj\Debug\netcoreapp3.1\Revisao.genruntimeconfig.cache
